@@ -5,6 +5,7 @@ public class StudentAccount extends BankAccount{
     String  institutionName;
 
     public StudentAccount() {
+        super();
     }
 
     public StudentAccount(String name, double balance, String  institutionName) {

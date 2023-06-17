@@ -8,6 +8,7 @@ public class CurrentAccount extends BankAccount{
     String tradeLicenseId; //consists of Uppercase English characters only
 
     public CurrentAccount() {
+        super();
     }
 
     public CurrentAccount(String name, double balance, String tradeLicenseId) throws Exception {

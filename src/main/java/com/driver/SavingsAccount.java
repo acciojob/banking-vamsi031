@@ -5,6 +5,7 @@ public class SavingsAccount extends BankAccount{
     double maxWithdrawalLimit;
 
     public SavingsAccount() {
+        super();
     }
 
     public SavingsAccount(String name, double balance, double maxWithdrawalLimit, double rate) {
